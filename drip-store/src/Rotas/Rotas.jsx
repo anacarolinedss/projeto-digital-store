@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home/Home"
 import ProductViewPage from "../pages/ProductViewPage/ProductViewPage"
-import { PrefetchPageLinks } from "react-router-dom";
+import ProductListingPage from "../pages/ProductListingPage/ProductListingPage"
 
 const Rotas = () => {
   return (
@@ -15,7 +15,7 @@ const Rotas = () => {
   );
 };
 
-export default App;
+export default Rotas;
 
 
 
